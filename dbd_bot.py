@@ -59,9 +59,14 @@ def main():
         while True:
             if running:
                 try:
+                    # 1920 x 1080
                     click(1823, 917)  # Click Ready
                     click(1819, 1022)  # Click Continue
                     click(1372, 660)  # Click Continue Popup
+                    # 1280 x 720
+                    # click(1216, 612)  # Click Ready
+                    # click(1213, 681)  # Click Continue
+                    # click(915, 440)  # Click Continue Popup
                     random_direction()
                     right_click(3000)  # Right Click
                     right_click(3500)  # Right Click 2
